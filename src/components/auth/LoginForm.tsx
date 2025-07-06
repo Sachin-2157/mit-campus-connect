@@ -70,7 +70,7 @@ const LoginForm = ({ onSuccess, onSwitchToRegister }: LoginFormProps) => {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="yourname@mitmusaffarpur.edu.in"
+                placeholder="yourname@mitmuzaffarpur.edu.in"
                 className="pl-10"
                 required
               />
