@@ -36,7 +36,7 @@ This project is a student hub web application built with React, TypeScript, Tail
 1.  *Clone the repository:*
 
     bash
-    git clone <YOUR_REPOSITORY_URL>
+    git clone [<YOUR_REPOSITORY_URL>](https://github.com/Sachin-2157/mit-campus-connect)
     
 
 2.  *Install dependencies:*
