@@ -49,7 +49,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const login = async (email: string, password: string): Promise<boolean> => {
     try {
       // Mock authentication - in real app, this would be API call
-      if (!email.endsWith('@mitmusaffarpur.edu.in')) {
+      if (!email.endsWith('@mitmuzaffarpur.edu.in')) {
         throw new Error('Please use your college email');
       }
       
@@ -74,7 +74,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const register = async (userData: Partial<User> & { password: string }): Promise<boolean> => {
     try {
-      if (!userData.email?.endsWith('@mitmusaffarpur.edu.in')) {
+      if (!userData.email?.endsWith('@mitmuzaffarpur.edu.in')) {
         throw new Error('Please use your college email');
       }
       
