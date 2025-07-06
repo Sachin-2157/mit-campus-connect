@@ -1,73 +1,80 @@
-# Welcome to your Lovable project
+# MIT Muzaffarpur Student Hub
 
-## Project info
+## Overview
 
-**URL**: https://lovable.dev/projects/19b33c3b-41b0-4622-933b-f72c60b332fb
+This project is a student hub web application built with React, TypeScript, Tailwind CSS, and Radix UI. It provides a centralized platform for students of MIT Muzaffarpur to access important information, connect with peers, and manage their campus life.  The application leverages the Google Gemini AI API for an intelligent chat assistant.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+*   *Authentication:* Secure login and registration for students.
+*   *Dashboard:* Personalized dashboard with key information and quick links.
+*   *Announcements:*  A board for important campus announcements with priority levels.
+*   *Chat Assistant:* AI-powered chatbot for answering student queries.
+*   *Quick Actions:*  Easy access to frequently used campus resources.
+*   *Mental Health Support:* Resources and links for student wellbeing.
+*   *Reporting System:*  A system for reporting issues and concerns.
+*   *Community Forum:* A space for students to connect and discuss topics.
+*   *Admin Dashboard:* (Admin Role Only) Tools for managing announcements and content.
+*   *Responsive Design:*  Optimized for various screen sizes.
 
-**Use Lovable**
+## Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/19b33c3b-41b0-4622-933b-f72c60b332fb) and start prompting.
+*   *Vite:* Build tool for fast development.
+*   *React:* JavaScript library for building user interfaces.
+*   *TypeScript:* Superset of JavaScript that adds static typing.
+*   *Tailwind CSS:* Utility-first CSS framework.
+*   *Radix UI:*  Accessible UI primitives.
+*   *shadcn/ui:* Reusable UI components.
+*   *Google Gemini AI:* Large language model for the chat assistant.
+*   *react-hook-form:* Form management library.
+*   *react-day-picker:* Date picker component.
+*   *react-resizable-panels:* Resizable panel component.
+*   *sonner:*  Toast notification library.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+1.  *Clone the repository:*
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+    bash
+    git clone <YOUR_REPOSITORY_URL>
+    
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2.  *Install dependencies:*
 
-Follow these steps:
+    bash
+    npm install
+    
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3.  *Set up your Gemini API Key:*
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+    *   Obtain an API key from [Google AI Studio](https://makersuite.google.com/app/apikey).
+    *   The application prompts for the API key on first run.  It is stored locally in your browser's local storage.
 
-# Step 3: Install the necessary dependencies.
-npm i
+4.  *Run the development server:*
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+    bash
+    npm run dev
+    
 
-**Edit a file directly in GitHub**
+    This will start the development server and open the application in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Environment Variables
 
-**Use GitHub Codespaces**
+*   *GOOGLE\_GEMINI\_API\_KEY:*  (Required) Your Google Gemini API key.  This is currently handled via local storage in the browser.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Deployment
 
-## What technologies are used for this project?
+You can deploy this application to any static hosting provider.  Build the application using npm run build and then deploy the contents of the dist directory.
 
-This project is built with:
+## Contributing
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Contributions are welcome! Please follow these guidelines:
 
-## How can I deploy this project?
+*   Fork the repository.
+*   Create a new branch for your feature or bug fix.
+*   Make your changes and commit them with descriptive messages.
+*   Submit a pull request.
 
-Simply open [Lovable](https://lovable.dev/projects/19b33c3b-41b0-4622-933b-f72c60b332fb) and click on Share -> Publish.
+## License
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+[MIT License](LICENSE)
